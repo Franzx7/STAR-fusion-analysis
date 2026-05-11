@@ -1,0 +1,58 @@
+# STAR-Fusion Tutorial Data
+STAR-Fusion-Tutorial/
+
+# Conda environment files
+*.conda
+*.mamba
+
+# STAR-Fusion outputs
+STAR-Fusion_outdir/
+**/STAR-Fusion_outdir/
+ctat_genome_lib_build_dir/
+**/ctat_genome_lib_build_dir/
+
+# BAM and index files
+*.bam
+*.bai
+*.sam
+
+# FASTQ files (tutorial data)
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+
+# Genome files
+*.fa
+*.fasta
+*.gtf
+*.gff
+*.gff3
+
+# Compressed files
+*.gz
+*.tar
+*.zip
+*.bz2
+
+# Log files
+*.log
+*.out
+*.err
+
+# Temporary files
+*.tmp
+*~
+.DS_Store
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
